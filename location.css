@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Zilla+Slab+Highlight');
+
+
+
+body{
+	margin: 20px;
+	background: #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: auto;
+
+
+
+
+
+
+}
+
+header {
+	font-family: Zilla Slab Highlight;
+	color:white;
+	
+}
+
+h1{
+	font-size: 96px;
+}
+p{
+	font-size: 60px;
+	color:white;
+	font-family: Righteous;
+}
+
+span{
+	color:black;
+}
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   line-height: 30px;
+   height:30px;
+   width:100%;
+   
+   }
+
+   footer p{
+   	font-family: Zilla Slab Highlight;
+   color:white;
+   font-size:24px;
+   }
+
+
+
+ /* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+
+   body{
+      height: auto;
+      text-align: center;
+
+   }
+   h1{
+      font-size: 48px;
+   }
+   p{
+      font-size: 36px;
+   }
+
+}
+ 
+ @media only screen 
+ and (min-width: 480px)
+ and (max-width: 767px){
+   h1{
+      font-size: 64px;
+      
+   }
+
+   body{
+      text-align: center;
+      height: auto;
+   }
+
+  footer{
+   padding: 50px;
+  }
+ }
+
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+
+   
+/* Styles */
+}
+ 
+
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+h1{
+   font-size: 72px;
+}
+
+}
+ 
+
